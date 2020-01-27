@@ -7,9 +7,11 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
+  new_arr = []
   array.each do |el|
-    el.capitalize + "!"
+    new_arr<< el.capitalize + "!"
   end
+  new_arr
 end
 
 def long_planeteer_calls# code an argument here
